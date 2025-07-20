@@ -1,11 +1,12 @@
 <script>
-    let { title, subtitle } = $props();
+    let { title, subtitle, subsubtitle } = $props();
 </script>
 
 <div class="title-card">
     <div class="content">
         <h1>{title}</h1>
         <p>{subtitle}</p>
+        <p>{subsubtitle}</p>
     </div>
 </div>
 
