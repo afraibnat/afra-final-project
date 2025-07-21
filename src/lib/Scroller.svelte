@@ -1,7 +1,7 @@
 <script>
     // `layout` can be either "right" or "left"
     // `sticky` and `scrolly` are the snippets passed in (see one of the examples)
-    let { layout, sticky, scrolly } = $props(); 
+    let { layout, sticky, scrolly } = $props();
 </script>
 
 <div class="wrapper {layout}">
@@ -26,6 +26,11 @@
         align-items: flex-start;
     }
 
+    .wrapper.center {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .left .scrolly {
         order: 0;
     }
@@ -38,6 +43,18 @@
     }
     .right .sticky {
         order: 0;
+    }
+
+    .center .sticky {
+        order: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .center .scrolly {
+        order: 1;
+        width: 100%;
     }
 
     .sticky,
@@ -54,7 +71,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        z-index: 0;
+        z-index: 2; 
+        /* 0 */
+    }
+
+    .sticky-content {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.6); /* transparent background */
+        padding: 2rem;
     }
 
     .scrolly {

@@ -1,19 +1,19 @@
 <script>
   export let title;
-  export let subtitle;
+  export let credit;
 </script>
 
 <div class="title-card">
-  <div class="content">
+  <div class="title-text">
     <h1>{title}</h1>
-    <p>{subtitle}</p>
+    <p class="credit">{credit}</p>
   </div>
 </div>
 
 <style>
   .title-card {
     height: 100vh;
-    background-image: url('/naacp.jpg');
+    background-image: url("/naacp.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,25 +22,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
     font-family: "Inter", sans-serif;
-    color: white;
+    color: #ffffff;
   }
 
-  .content {
-    max-width: 700px;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 2rem;
-    border-radius: 1rem;
+  .title-text {
+    max-width: 800px;
+    text-align: left;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
   }
 
   h1 {
-    font-size: 3rem;
-    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    line-height: 1.2;
   }
 
-  p {
-    font-size: 1.3rem;
-    margin-top: 1rem;
+  .credit {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #ddd;
   }
+
 </style>

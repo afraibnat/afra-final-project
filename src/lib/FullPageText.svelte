@@ -1,39 +1,36 @@
 <script>
-  export let subsubtitle;
+  export let subtitle;
 </script>
 
-<div class="research-section">
+<div class="research-question">
   <div class="content">
-    <h2>Research Question</h2>
-    <p>{subsubtitle}</p>
+    <h2>{subtitle}</h2>
   </div>
 </div>
 
 <style>
-  .research-section {
+  .research-question {
     height: 100vh;
-    background-color: #44c4a1;
+    background-color: #0b1f2a;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 2rem;
-    font-family: "Inter", sans-serif;
+    font-family: 'Inter', sans-serif;
+    color: white;
   }
 
   .content {
-    max-width: 700px;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 2rem;
-    border-radius: 1rem;
+    max-width: 40rem;
+    margin: 0 auto;
   }
 
   h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-
-  p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: 500; /* light */
+    line-height: 1.6;
+    margin: 0;
+    white-space: pre-wrap; /* preserve line breaks if needed */
   }
 </style>

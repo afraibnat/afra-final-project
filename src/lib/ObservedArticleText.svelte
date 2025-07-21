@@ -30,13 +30,12 @@
 
 <style>
     .article-text {
+        max-width: 750px;
         margin: 50vh auto;
-        width: 50%;
-        background-color: #ff99fc;
-        color: #007052;
-        border: solid #8427c9 3px;
-        border-radius: 20px;
-        padding: 20px;
-        box-shadow: 16px 16px #8aa6df;
+        width: 70%;
+        color: #000000;
+        padding: 40px 24px;
+        font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+        border-radius: 4px;
     }
 </style>

@@ -4,7 +4,7 @@
     import StickyBackground from "../lib/StickyBackground.svelte";
 </script>
 
-<Scroller layout="left">
+<Scroller layout="center">
   {#snippet sticky()}
     <StickyBackground image="/naacp.jpg">
     </StickyBackground>

@@ -29,7 +29,7 @@
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
-    transition: background-image 1s ease-in-out;
+    /* transition: background-image 1s ease-in-out; */
   }
 
   .overlay-content {
@@ -38,7 +38,6 @@
     color: white;
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
     padding: 3rem; 
-    /* 20px */
     z-index: 1;
   }
 </style>
