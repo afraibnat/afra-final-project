@@ -5,11 +5,10 @@
 
   let imageIndex = 0;
 
-  const images = ["covid-business.jpg", "golden-age.jpg", "daniel-speed.jpg"];
+  const images = ["business-owners.jpg", "coach-iya.jpg"];
   const captions = [
     `A masked tailor working during the COVID-19 pandemic. <a href="https://www.wsj.com/articles/black-owned-businesses-hit-especially-hard-by-coronavirus-pandemic-study-finds-11596558754"> Source</a>`,
     `The rise of Black-owned businesses during the Golden Age, 1900–1930. <a href="https://www.wsj.com/articles/black-owned-businesses-hit-especially-hard-by-coronavirus-pandemic-study-finds-11596558754"> Source</a>`,
-    `Daniel Speed, a grocer who helped fund civil rights efforts in the 1950s and 60s. <a href="https://www.historypin.org/en/explore/geo/37.77493,-122.419416,12/bounds/37.702303,-122.493402,37.847486,-122.34543/paging/1/pin/1139634"> Source</a>`,
   ];
 
   const options = {
@@ -45,42 +44,32 @@
 
     {#snippet scrolly()}
       <ObservedArticleText callback={setImageIndex(0)} {options}>
-        <p>
-          <strong>
-            With the economic fallout during the COVID-19 pandemic in 2020, the
-            most deeply impacted racial group were Black-owned businesses,
-            seeing a 41% decline in number, along with the collapse of 440,000.
-            Furthermore, Black Americans faced an unemployment rate of 16.8%.
-          </strong>
+        <p>An average of 12% of Black-owned businesses reported an increase of sales, 
+            compared to only 5.5% of all businesses. Some were more able to adapt and 
+            take advantage of the new economic environment while others were hit hard. 
         </p>
       </ObservedArticleText>
 
       <ObservedArticleText callback={setImageIndex(1)} {options}>
         <p>
-          But this collapse was a result of long-term civil and economic
-          justices. Black people were not allowed in white restaurants,
-          universities, churches, or businesses due to Jim Crow laws and
-          segregation, barriers meant to keep Black people from having the same
-          opportunities from white people, leading to many starting their own to
-          rely on self-sufficiency.
+          In New Jersey, Coach Ya Karade had to shut down her gymnastics studio, 
+          the Athletic Art Academy, when the pandemic hit. She had to conduct virtual classes. 
+          When it reopened in July 2021, it was operating only at 25% capacity as many families 
+          continued staying at home in multi-generational households, afraid of putting older relatives at risk.
         </p>
+        <br>
+        <p>“The word pivot became synonymous with survival,” said Karade, 54, who started her 
+            business in 2014 to create the youth fitness center for opportunities for gymnastics and 
+            enjoyment for families in her urban area.</p>
+        <br>
         <p>
-          As a result, there came the “Golden Age” of Black-owned businesses
-          from 1900 to 1930. The number of Black-owned companies doubled from
-          20,000 to 40,000 between 1900 and 1915, according to the National
-          Negro Business League.
+          She stated that whether she could continue to survive under these conditions depends on various factors, 
+          such as receiving more funding. About 37% of Black small-business owners said they could survive 
+          more than a year under the conditions of the pandemic, compared to 59% of White small-business owners 
+          and 55% Hispanic small-business owners.
         </p>
       </ObservedArticleText>
 
-      <ObservedArticleText callback={setImageIndex(2)} {options}>
-        <p>
-          Independent black-owned businesses played a significant role in
-          financing civil rights protests during the 1950s and 60s. Grocery
-          store owner Daniel Speed bankrolled a bus boycott similar to the
-          Montgomery boycott, and his shop served as a meeting ground for black
-          leaders.
-        </p>
-      </ObservedArticleText>
     {/snippet}
   </Scroller>
 </div>

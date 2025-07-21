@@ -220,13 +220,21 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                 There is a long-standing disparity of unemployment that exists between black and white workers; 
-                Since 1972, the unemployment ratio of black to white workers is 2:1, including in 2019.
-        
                 <p>For decades, there has been an uneven landscape of American business ownership for Black entrepreneurs. 
-                It was only until 1954 when the Bureau of Labor Statistics reported employment rates by race, of white or nonwhite.</p>
+                    It was only until 1954 when the Bureau of Labor Statistics reported employment rates by race, 
+                    of white or nonwhite.</p>
+
+                <p>There is a long-standing disparity of unemployment that exists between black and white workers; 
+                Since 1972, the unemployment ratio of black to white workers is 2:1, including in 2019.</p>
             
                 <p>This means black workers are twice as likely to be unemployed than white workers.</p>
+            </ArticleText>
+
+            <ArticleText>
+                <p>It’s important to point out the undercapitalization of Black businesses 
+                    in regards to the U.S metro area’s Black populations. If the number of Black 
+                    businesses matched population size and employees per firm matched the average business, 
+                    it would create 206,441 jobs.</p>
             </ArticleText>
         {/snippet}
     </Scroller>

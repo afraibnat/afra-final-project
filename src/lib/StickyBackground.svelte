@@ -1,11 +1,11 @@
 <script>
-  let { image } = $props();
+  export let image;
 </script>
 
 <div class="background-container">
   <div class="background-image" style="background-image: url({image});"></div>
   <div class="overlay-content">
-    <!-- {@render children()} -->
+    <slot />
   </div>
 </div>
 
@@ -28,8 +28,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    z-index: -1;
-    /* transition: background-image 1s ease-in-out; */
+    transition: background-image 1s ease-in-out;
   }
 
   .overlay-content {
@@ -37,7 +36,7 @@
     text-align: center;
     color: white;
     text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
-    padding: 3rem; 
+    padding: 3rem;
     z-index: 1;
   }
 </style>

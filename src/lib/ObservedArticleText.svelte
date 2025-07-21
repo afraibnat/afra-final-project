@@ -35,6 +35,7 @@
         width: 70%;
         color: #000000;
         padding: 40px 24px;
+        font-size: 21px;
         font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
         border-radius: 4px;
     }

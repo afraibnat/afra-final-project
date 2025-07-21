@@ -16,7 +16,7 @@
 
 <style>
     .wrapper {
-        background-color: #f7f5eb;
+        background-color: #ffffff;
         padding: min(100vh, 30rem) 1rem;
         border-style: solid;
         border-color: #4096fa;
@@ -77,7 +77,7 @@
 
     .sticky-content {
         text-align: center;
-        background-color: rgba(255, 255, 255, 0.6); /* transparent background */
+        background-color: rgba(199, 127, 127, 0.6); /* transparent background */
         padding: 2rem;
     }
 

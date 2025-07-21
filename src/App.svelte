@@ -8,29 +8,41 @@
   import DisappearingDuckExample from "./sections/DisappearingDuckExample.svelte";
   import IntersectionObserverSectionCard from "./sections/IntersectionObserverSectionCard.svelte";
   import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
-  import IntroWealthGap from "./sections/IntroWealthGap.svelte";
-  import Undercapitalization from "./sections/Undercapitalization.svelte";
   import CovidStats from "./sections/COVIDStats.svelte";
   import BusinessOwners from "./sections/BusinessOwners.svelte";
   import BusinessLosses from "./sections/BusinessLosses.svelte";
-  import Reasons from "./sections/Reasons.svelte";
   import ContextImageTransition from "./sections/ContextImageTransition.svelte";
+  import Affected from "./sections/Affected.svelte";
+  import Industries from "./sections/Industries.svelte";
+  import CoachIya from "./sections/CoachIya.svelte";
+  import Loans from "./sections/Loans.svelte";
+  import CoachIyaSecond from "./sections/CoachIyaSecond.svelte";
+  import Entrepreneur from "./sections/Entrepreneur.svelte";
+  import Rebound from "./sections/Rebound.svelte";
+  import Growing from "./sections/Growing.svelte"
+  import CurrentOutlook from "./sections/CurrentOutlook.svelte";
 </script>
 
 <main>
   <TitleSection />
   <ContextImageTransition />
   <BusinessOwners />
-  <IntroWealthGap />
   <LeftAlignedExample />
-  <Undercapitalization />
   <CovidStats />
   <BusinessLosses />
-  <Reasons />
+  <Affected />
+  <Industries />
+  <CoachIya />
+  <Loans />
+  <CoachIyaSecond />
+  <Entrepreneur />
+  <Rebound />
+  <Growing />
+  <CurrentOutlook />
 
-  <IntersectionObserverSectionCard />
+  <!-- <IntersectionObserverSectionCard />
   <InteresectionObserverBasicExample />
   <IntersectionObserverAlertExample />
   <DisappearingDuckExample />
-  <IntersectionObserverListExample />
+  <IntersectionObserverListExample /> -->
 </main>
