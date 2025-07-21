@@ -6,8 +6,6 @@
   {@render children()}
 </div>
 
-<!-- <p>https://naacp.org/articles/black-america-and-coronavirus-pandemic</p> -->
-
 <style>
   .text-container {
     max-width: 750px;

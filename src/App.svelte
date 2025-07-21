@@ -9,12 +9,13 @@
   import IntersectionObserverSectionCard from "./sections/IntersectionObserverSectionCard.svelte";
   import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
   import TestSection from "./sections/TestSection.svelte";
+  import MiddleSection from "./sections/MiddleSection.svelte";
 </script>
 
 <main>
   <TitleSection />
   <TestSection />
-  <RightAlignedExample />
+  <MiddleSection />
   <LeftAlignedExample />
   <ImageExample />
 

@@ -5,6 +5,18 @@
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
 
+    /* CSS HEX */
+//  --eastern-blue: #1e81b0;
+// --green-white: #eeeee4;
+// --burnt-sienna: #e28743;
+// --tacao: #eab676;
+// --glacier: #76b5c5;
+// --eternity: #21130d;
+// --burnt-umber: #873e23;
+// --powder-blue: #abdbe3;
+// --catalina-blue: #063970;
+// --chathams-blue: #154c79;
+
     const series = [
         {
             name: "Black",
@@ -56,7 +68,7 @@
                 [2016, 8.4],
                 [2017, 7.5],
                 [2018, 6.5],
-                [2019, 6.1]
+                [2019, 6.1],
             ],
             color: "#8427c9",
         },
@@ -110,7 +122,7 @@
                 [2016, 4.3],
                 [2017, 3.8],
                 [2018, 3.5],
-                [2019, 3]
+                [2019, 3],
             ],
             color: "#ff99fc",
         },
@@ -122,10 +134,10 @@
     let options = {
         chart: {
             type: "spline",
-            backgroundColor: "#e3ff00",
-            borderColor: "#007052",
-            borderWidth: 5,
-            borderRadius: 20,
+            backgroundColor: "#76b5c5",
+            // borderColor: "#007052",
+            // borderWidth: 5,
+            // borderRadius: 20,
         },
         title: {
             text: "Unemployment rate by race, 1972 - 2019",
@@ -192,51 +204,29 @@
         {#snippet sticky()}
             <div class="chart">
                 <Chart bind:chart {options} highcharts={Highcharts} />
+                <div class="chart-footnote">
+                    X-axis: Years of recorded business data (1972–2020)
+                    <br />
+                    Source: <a href="https://example.com">U.S. Census Bureau</a>
+                </div>
             </div>
-            <button on:click={toggleThirdSeries} class="toggle-button">
+            <!-- <button on:click={toggleThirdSeries} class="toggle-button">
                 {thirdSeriesVisible ? "Remove Group 3" : "Add Group 3"}
-            </button>
+            </button> -->
             <div>
-                <p>
-                    You can use Svelte to add and remove data from a Highcharts
-                    chart.
-                </p>
-                <p>
-                    When you click the button above, a third group is toggled in
-                    the chart. Check out the source code to see how it's done.
-                </p>
-                <p>
-                    <strong
-                        >🤔 How might you use other HTML elements, like
-                        checkboxes or radio buttons, in a similar way to filter
-                        data?</strong
-                    >
-                </p>
+               
             </div>
         {/snippet}
 
         {#snippet scrolly()}
             <ArticleText>
-                You might notice that this basic template doesn't have certain
-                features that are common in scrollytelling.
-            </ArticleText>
-
-            <ArticleText>
-                For example, you might want a component that doesn't feature a
-                sticky component at all. Or a component that is solely a sticky
-                component.
-            </ArticleText>
-
-            <ArticleText>
-                You might also want to add more interactivity or gamify parts of
-                your scrollytelling piece.
-            </ArticleText>
-
-            <ArticleText>
-                <strong>
-                    It's up to you to research how to create the effects and
-                    functionality that you envision!
-                </strong>
+                 There is a long-standing disparity of unemployment that exists between black and white workers; 
+                Since 1972, the unemployment ratio of black to white workers is 2:1, including in 2019.
+        
+                <p>For decades, there has been an uneven landscape of American business ownership for Black entrepreneurs. 
+                It was only until 1954 when the Bureau of Labor Statistics reported employment rates by race, of white or nonwhite.</p>
+            
+                <p>This means black workers are twice as likely to be unemployed than white workers.</p>
             </ArticleText>
         {/snippet}
     </Scroller>
@@ -244,11 +234,19 @@
 
 <style>
     .chart {
-        width: 90%;
+        width: 100%;
         margin: 0px auto;
     }
 
-    .toggle-button {
+    .chart-footnote {
+        font-size: 12px;
+        color: #666;
+        text-align: right;
+        margin-top: 8px;
+        line-height: 1.4;
+    }
+
+    /* .toggle-button {
         margin: 20px;
         padding: 20px;
         color: #007052;
@@ -264,5 +262,5 @@
     .toggle-button:active {
         transform: translateY(2px);
         box-shadow: 0 2px 0 #007052;
-    }
+    } */
 </style>
