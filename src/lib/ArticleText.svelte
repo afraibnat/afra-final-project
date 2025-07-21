@@ -15,7 +15,7 @@
     border-radius: 4px;
   }
 
-  .text-container p {
+  /* .text-container p {
     font-size: 18px;
     line-height: 1.8;
     color: #2e2e2e;
@@ -42,5 +42,5 @@
     color: #666;
     margin-top: 0.5rem;
     text-align: center;
-  }
+  } */
 </style>

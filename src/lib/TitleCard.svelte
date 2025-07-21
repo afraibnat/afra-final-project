@@ -1,57 +1,46 @@
 <script>
-    let { title, subtitle, subsubtitle } = $props();
+  export let title;
+  export let subtitle;
 </script>
 
 <div class="title-card">
-    <div class="content">
-        <h1>{title}</h1>
-        <p>{subtitle}</p>
-        <p>{subsubtitle}</p>
-    </div>
+  <div class="content">
+    <h1>{title}</h1>
+    <p>{subtitle}</p>
+  </div>
 </div>
 
 <style>
-    .title-card {
-        background-color: #007052;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 2rem;
-        box-sizing: border-box;
-        font-family: "Inter", sans-serif;
-    }
+  .title-card {
+    height: 100vh;
+    background-image: url('/naacp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-    .content {
-        max-width: 700px;
-        background-color: #034c36;
-        padding: 2rem;
-        border: 6px solid #e3ff00;
-        border-radius: 2rem;
-        box-shadow: 16px 16px #188f70;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
 
-    h1 {
-        font-size: 3rem;
-        margin: 0;
-        color: #e3ff00;
-        text-shadow: 1px 1px 0 #007052;
-    }
+  .content {
+    max-width: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 1rem;
+  }
 
-    p {
-        font-size: 1.3rem;
-        color: #f7f5eb;
-        margin-top: 1rem;
-    }
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
 
-    @media (max-width: 600px) {
-        h1 {
-            font-size: 2.2rem;
-        }
-
-        p {
-            font-size: 1.1rem;
-        }
-    }
+  p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
 </style>

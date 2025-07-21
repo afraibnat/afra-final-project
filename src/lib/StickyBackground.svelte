@@ -1,11 +1,11 @@
 <script>
-  let { children, image } = $props();
+  let { image } = $props();
 </script>
 
 <div class="background-container">
   <div class="background-image" style="background-image: url({image});"></div>
   <div class="overlay-content">
-    {@render children()}
+    <!-- {@render children()} -->
   </div>
 </div>
 
