@@ -1,9 +1,18 @@
+All images, sources for chart/graph data, and testimonies are cited in the text.
+
+I utilized the “Kode With Klossy Scrollytelling Template” repository code to create this project.
+
+This project was inspired by the “Wata Na Life” and “The Economic Impact of Closing the Racial Wealth Gap” websites, both scrollytelling websites. I admired the simplicity of text, font, image, color, and transition choices, which was my goal to achieve in this project.
+
+Wata Na Life: https://www.wateraid.org/uk/stories/water-is-life-in-sierra-leone  
+
+The Economic Impact of Closing the Racial Wealth Gap: https://www.mckinsey.com/industries/public-sector/our-insights/the-economic-impact-of-closing-the-racial-wealth-gap
+
+
+
 # KWK Scrollytelling template
 
 This template is a starting point / example of how to create a scrollytelling piece using Svelte and Highcharts! 
-
-## Demo
-See a live demo of the page [here](https://jasminesamra.github.io/kwk-scrollytelling-template/)!
 
 ## Recommended IDE Setup
 
