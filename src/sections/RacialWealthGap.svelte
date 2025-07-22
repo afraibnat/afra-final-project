@@ -27,6 +27,9 @@
           14.4% share.
         </p>
       </div>
+      <div class="chart-footnote">
+        Source: <a href="https://www.africanamericanchambersa.org/the-impact-of-covid-19-on-african-american-owned-businesses/">African American Chambers</a>
+      </div>
     </ArticleText>
   {/snippet}
 </Scroller>

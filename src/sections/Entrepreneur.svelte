@@ -1,26 +1,48 @@
 <script>
+    import { fade, fly } from "svelte/transition";
     import Scroller from "../lib/Scroller.svelte";
-    import ArticleText from "../lib/ArticleText.svelte";
+    import ObservedArticleText from "../lib/ObservedArticleText.svelte";
+
+    let imageIndex = 0;
+
+    const images = ["everett-sands.jpg"];
+    const captions = [
+        `Source: <a href="https://inglewoodtoday.com/featured/celebrating-financial-literacy-month-lendistry-ceo-everett-sands-pioneers-with-scientific-brilliance/">Economic Policy Institute</a`,
+    ];
+
+    const options = {
+        threshold: [0.85, 0.95],
+    };
+
+    const setImageIndex = (index) => (entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting && entry.intersectionRatio >= 0.9) {
+                imageIndex = index;
+            }
+        });
+    };
 </script>
 
 <div>
     <Scroller layout="right">
         {#snippet sticky()}
-            <img
-                class="duck-img"
-                src="everett-sands.jpg"
-                alt="KWK rubber duck!"
-            />
-            <div class="chart-footnote">
-                Source: <a
-                    href="https://inglewoodtoday.com/featured/celebrating-financial-literacy-month-lendistry-ceo-everett-sands-pioneers-with-scientific-brilliance/"
-                    >Economic Policy Institute</a
-                >
+            <div class="image-container">
+                {#key imageIndex}
+                    <img
+                        class="duck-img"
+                        src={images[imageIndex]}
+                        alt="Scroll-based image"
+                        in:fly={{ y: 200, duration: 1000 }}
+                    />
+                {/key}
+                <div class="caption" transition:fade>
+                    {@html captions[imageIndex]}
+                </div>
             </div>
         {/snippet}
 
         {#snippet scrolly()}
-            <ArticleText>
+            <ObservedArticleText callback={setImageIndex(0)} {options}>
                 <p>
                     Black entrepreneurism ranked high. On average,
                     <a
@@ -42,23 +64,31 @@
                     reached out were interested in opening daycare centers or
                     started delivery service.
                 </p>
-            </ArticleText>
+            </ObservedArticleText>
         {/snippet}
     </Scroller>
 </div>
 
 <style>
+    .image-container {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
     .duck-img {
         margin: 0 auto;
         display: block;
-        max-width: 400px;
+        max-width: 450px;
         height: 100%;
     }
-    .chart-footnote {
-        font-size: 12px;
-        color: #666;
-        text-align: right;
-        margin-top: 8px;
+
+    .caption {
+        font-size: 14px;
+        color: #444;
+        margin-top: 0.5rem;
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
         line-height: 1.4;
     }
 </style>

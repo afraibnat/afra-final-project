@@ -1,16 +1,48 @@
 <script>
+    import { fade, fly } from "svelte/transition";
     import Scroller from "../lib/Scroller.svelte";
-    import ArticleText from "../lib/ArticleText.svelte";
+    import ObservedArticleText from "../lib/ObservedArticleText.svelte";
+
+    let imageIndex = 0;
+
+    const images = ["covid-19-disruption.jpg"];
+    const captions = [
+        `At this restaurant, a sign indicates social distancing. <a href="https://www.aljazeera.com/economy/2020/8/7/us-why-were-black-owned-businesses-the-hardest-hit-by-pandemic"> Source</a>`,
+    ];
+
+    const options = {
+        threshold: [0.85, 0.95],
+    };
+
+    const setImageIndex = (index) => (entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting && entry.intersectionRatio >= 0.9) {
+                imageIndex = index;
+            }
+        });
+    };
 </script>
 
 <div>
     <Scroller layout="right">
         {#snippet sticky()}
-            <img class="duck-img" src="duck.png" alt="KWK rubber duck!" />
+            <div class="image-container">
+                {#key imageIndex}
+                    <img
+                        class="duck-img"
+                        src={images[imageIndex]}
+                        alt="Scroll-based image"
+                        in:fly={{ y: 200, duration: 1000 }}
+                    />
+                {/key}
+                <div class="caption" transition:fade>
+                    {@html captions[imageIndex]}
+                </div>
+            </div>
         {/snippet}
 
         {#snippet scrolly()}
-            <ArticleText>
+            <ObservedArticleText callback={setImageIndex(0)} {options}>
                 <h2>COVID Disruption</h2>
                 <p>
                     The past few years pre-COVID revealed steady growth for
@@ -28,14 +60,31 @@
                     2018 and 2019, when it rose by 8%, but declined to 4.7% between
                     2019 and 2020, representing the impact of the pandemic.
                 </p>
-            </ArticleText>
+            </ObservedArticleText>
         {/snippet}
     </Scroller>
 </div>
 
 <style>
+    .image-container {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    
     .duck-img {
-        width: 25%;
-        margin: 0px auto;
+        margin: 0 auto;
+        display: block;
+        max-width: 450px;
+        height: 100%;
+    }
+
+    .caption {
+        font-size: 14px;
+        color: #444;
+        margin-top: 0.5rem;
+        max-width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.4;
     }
 </style>

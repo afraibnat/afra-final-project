@@ -49,7 +49,7 @@
                     The top ten metro areas by ratio of Black businesses to Black residents 
                     show that the areas closest to achieving parity (Black business ownership 
                     rate equal to the share of Black residents in the metro area) tend to have 
-                    smaller numbers of Black-owned businesses. Portland, Maine, Fresno, Calif, 
+                    smaller numbers of Black-owned businesses. Portland, Maine, Fresno, California, 
                     and Santa Rosa, California, have fewer than 300 Black owned employer firms. 
                     On the other hand, places such as Washington D.C. have a high percentage of 
                     Black population and Black-owned businesses.
@@ -58,7 +58,7 @@
 
             <ObservedArticleText callback={setImageIndex(1)} {options}>
                 <p>
-                    The number and share of Small Business Administration (SBA) and 504 loans have gone to Black-owned businesses has more than doubled since 2020 due to the Biden Administration.
+                    The number and share of Small Business Administration (SBA) and 504 loans have gone to Black-owned businesses has <a href="https://www.sba.gov/article/2023/09/21/sba-data-show-major-increase-loans-black-owned-businesses-under-biden-harris" target="_blank" rel="noopener noreferrer">more than doubled since 2020 due to the Biden Administration.</a>
                 </p>
                 <p>
                     But, despite the growing rate of 30% during 2021, Black-owned businesses with at least two employees represent 2.5% of all businesses in the United States. 
