@@ -3,54 +3,58 @@
   import ArticleText from "../lib/ArticleText.svelte";
 </script>
 
-<Scroller layout="center">
-  {#snippet sticky()}
-    <div class="background-container">
-      <img src="naacp.jpg" alt="NAACP" />
-    </div>
-  {/snippet}
+<div class="page-wrapper">
+  <div class="background-color" aria-hidden="true"></div>
+  <Scroller layout="center">
+    {#snippet sticky()}{/snippet}
 
-  {#snippet scrolly()}
-    <ArticleText>
-      <div class="text-box">
-        <h2>Who are Black Business Owners?</h2>
-        <p>
-          <strong>More Likely to be Men than Women.</strong> Some 54% of Black-owned
-          firms in 2022 had men as their majority owners, while 39% had women as
-          their majority owners.
-        </p>
-        <p>
-          <strong>A Greater Percentage are Middle-Aged.</strong> Half of Black or
-          African American business owners who reported their age group were ages
-          35 to 54 in 2022.
-        </p>
-        <p>
-          <strong>A Majority have a College Degree.</strong> Among owners who reported
-          their highest level of education completed, 27% had a bachelor’s degree
-          and 34% had a graduate or professional degree beyond a bachelor’s in 2022.
-        </p>
-      </div>
-      <div class="chart-footnote">
-        Source: <a href="https://www.pewresearch.org/short-reads/2025/02/12/a-look-at-black-owned-businesses-in-the-us/">Pew Research Center</a>
-      </div>
-    </ArticleText>
-  {/snippet}
-</Scroller>
+    {#snippet scrolly()}
+      <ArticleText>
+        <div class="text-box">
+          <h2>Who are Black Business Owners?</h2>
+          <p>
+            <strong>More Likely to be Men than Women.</strong> Some 54% of Black-owned
+            firms in 2022 had men as their majority owners, while 39% had women as
+            their majority owners.
+          </p>
+          <p>
+            <strong>A Greater Percentage are Middle-Aged.</strong> Half of Black
+            or African American business owners who reported their age group were
+            ages 35 to 54 in 2022.
+          </p>
+          <p>
+            <strong>A Majority have a College Degree.</strong> Among owners who reported
+            their highest level of education completed, 27% had a bachelor’s degree
+            and 34% had a graduate or professional degree beyond a bachelor’s in
+            2022.
+          </p>
+        </div>
+        <div class="chart-footnote">
+          Source:
+          <a
+            href="https://www.pewresearch.org/short-reads/2025/02/12/a-look-at-black-owned-businesses-in-the-us/"
+          >
+            Pew Research Center
+          </a>
+        </div>
+      </ArticleText>
+    {/snippet}
+  </Scroller>
+</div>
 
 <style>
-  .background-container {
+  .background-color {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    inset: 0;
+    background: #ffcc00;
+    opacity: 0.8;
     z-index: 0;
-    overflow: hidden;
   }
-  .background-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+  .page-wrapper {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden; /* if background overflows */
   }
 
   .text-box {

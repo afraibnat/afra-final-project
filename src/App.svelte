@@ -1,12 +1,6 @@
 <script>
   import LeftAlignedExample from "./sections/LeftAlignedExample.svelte";
-  import RightAlignedExample from "./sections/RightAlignedExample.svelte";
-  import ImageExample from "./sections/ImageExample.svelte";
   import TitleSection from "./sections/TitleSection.svelte";
-  import InteresectionObserverBasicExample from "./sections/InteresectionObserverBasicExample.svelte";
-  import IntersectionObserverAlertExample from "./sections/IntersectionObserverAlertExample.svelte";
-  import DisappearingDuckExample from "./sections/DisappearingDuckExample.svelte";
-  import IntersectionObserverListExample from "./sections/IntersectionObserverListExample.svelte";
   import CovidStats from "./sections/COVIDStats.svelte";
   import BusinessOwners from "./sections/BusinessOwners.svelte";
   import BusinessLosses from "./sections/BusinessLosses.svelte";
@@ -44,10 +38,4 @@
   <CurrentOutlook />
   <Conclusions />
   <LastThoughts />
-
-  <!-- <IntersectionObserverSectionCard />
-  <InteresectionObserverBasicExample />
-  <IntersectionObserverAlertExample />
-  <DisappearingDuckExample />
-  <IntersectionObserverListExample /> -->
 </main>
