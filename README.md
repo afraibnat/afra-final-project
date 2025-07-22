@@ -1,6 +1,7 @@
 All images, sources for chart/graph data, and testimonies are cited in the text.
 
 I utilized the “Kode With Klossy Scrollytelling Template” repository code to create this project.
+https://github.com/jasminesamra/kwk-scrollytelling-template 
 
 This project was inspired by the “Wata Na Life” and “The Economic Impact of Closing the Racial Wealth Gap” websites, both scrollytelling websites. I admired the simplicity of text, font, image, color, and transition choices, which was my goal to achieve in this project.
 
