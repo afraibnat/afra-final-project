@@ -27,7 +27,6 @@
 <div>
     <Scroller layout="right">
         {#snippet sticky()}
-            <h2>Current</h2>
             <div class="image-container">
                 {#key imageIndex}
                     <img
@@ -45,6 +44,7 @@
 
         {#snippet scrolly()}
             <ObservedArticleText callback={setImageIndex(0)} {options}>
+                <h2>Current</h2>
                 <p>
                     The top ten metro areas by ratio of Black businesses to Black residents 
                     show that the areas closest to achieving parity (Black business ownership 

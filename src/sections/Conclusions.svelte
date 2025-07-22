@@ -10,7 +10,7 @@
   {#snippet scrolly()}
   <ArticleText>
         <p>The pandemic caused an unprecedented economic shock.</p>
-        <p>Despite significant growth in Black-owned businesses, disparities remian stark.
+        <p>Despite significant growth in Black-owned businesses, disparities remain stark.
         Black entrepreneurs face challenges such as undercapitalization, limited access
         to funding, and lower approval rates for loans compared to white-owned businesses.
         While the partial rebound and continued growth is encouraging, ongoing commitment form
