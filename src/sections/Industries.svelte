@@ -1,6 +1,5 @@
 <script>
     import Scroller from "../lib/Scroller.svelte";
-    import ArticleText from "../lib/ArticleText.svelte";
     import ObserverArticleSecond from "../lib/ObserverArticleSecond.svelte";
 
     const options = {
@@ -13,7 +12,7 @@
 
             if (entry.intersectionRatio >= 0.9) {
                 // "active" state
-                elem.style.backgroundColor = "#e3ff00";
+                elem.style.backgroundColor = "#061922";
             } else if (entry.intersectionRatio < 0.9) {
                 // "inactive" state
                 elem.style.backgroundColor = "#888888";

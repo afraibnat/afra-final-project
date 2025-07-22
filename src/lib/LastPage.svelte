@@ -4,7 +4,7 @@
 
 <div class="research-question">
   <div class="content">
-    <h2>{@html subtitle}</h2>
+    <h2>{subtitle}</h2>
   </div>
 </div>
 

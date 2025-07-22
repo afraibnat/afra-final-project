@@ -1,7 +1,7 @@
 <script>
   import FullPageText from "../lib/FullPageText.svelte";
 
-  const subtitle = "August is National Black Business Month. Shop locally, Share, Collaborate, Attend Events, and Advocate for Change. What can you do to support Black-owned businesses?";
+  const subtitle = `August is National Black Business Month. <br><br>Shop locally, share, collaborate, attend events, and advocate for Change. <br><br>What can you do to support Black-owned businesses?`;
 </script>
 
 <div class="page-container">

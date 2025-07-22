@@ -70,7 +70,7 @@
                 [2018, 6.5],
                 [2019, 6.1],
             ],
-            color: "#8427c9",
+            color: "#2E0953",
         },
         {
             name: "White",
@@ -124,7 +124,7 @@
                 [2018, 3.5],
                 [2019, 3],
             ],
-            color: "#ff99fc",
+            color: "#00C3C9",
         },
     ];
 
@@ -134,16 +134,10 @@
     let options = {
         chart: {
             type: "spline",
-            backgroundColor: "#76b5c5",
-            // borderColor: "#007052",
-            // borderWidth: 5,
-            // borderRadius: 20,
+            backgroundColor: "#ffffff",
         },
         title: {
             text: "Unemployment rate by race, 1972 - 2019",
-        },
-        subtitle: {
-            text: "Subtitle",
         },
 
         yAxis: {

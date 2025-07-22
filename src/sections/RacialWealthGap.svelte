@@ -52,7 +52,7 @@
 
   .text-box {
     max-width: 600px;
-    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent */
+    background-color: #061922; /* semi-transparent */
     color: white;
     padding: 2rem;
     border-radius: 0.5rem;
