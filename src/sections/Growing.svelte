@@ -6,6 +6,7 @@
 <div>
     <Scroller layout="right">
         {#snippet sticky()}
+            <h2>Recovery</h2>
             <img src="business-operations.png" alt="KWK rubber duck!" />
             <div class="chart-footnote">
                 Source: <a
@@ -17,14 +18,9 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <h2>Recovery</h2>
                 <p>
                     Recently in February 2023, these rates remain high,
-                    conveying recovery.
-                </p>
-
-                <p>
-                    As you can see, the industries that were struggling during
+                    conveying recovery. Industries that were struggling during
                     the pandemic and were highly-concentrated in black
                     businesses are now flourishing (Accommodations, Food
                     Service, Construction, Professional, and Health Services).

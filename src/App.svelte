@@ -21,12 +21,15 @@
   import Growing from "./sections/Growing.svelte"
   import CurrentOutlook from "./sections/CurrentOutlook.svelte";
   import LastThoughts from "./sections/LastThoughts.svelte";
+  import Conclusions from "./sections/Conclusions.svelte";
+  import RacialWealthGap from "./sections/RacialWealthGap.svelte";
 </script>
 
 <main>
   <TitleSection />
   <ContextImageTransition />
   <BusinessOwners />
+  <RacialWealthGap />
   <LeftAlignedExample />
   <CovidStats />
   <BusinessLosses />
@@ -39,6 +42,7 @@
   <Rebound />
   <Growing />
   <CurrentOutlook />
+  <Conclusions />
   <LastThoughts />
 
   <!-- <IntersectionObserverSectionCard />

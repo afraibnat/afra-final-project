@@ -1,7 +1,6 @@
 <script>
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
-    import StickyBackground from "../lib/StickyBackground.svelte";
 </script>
 
 <Scroller layout="right">

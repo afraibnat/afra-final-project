@@ -5,7 +5,7 @@
 
 <Scroller layout="center">
   {#snippet sticky()}
-    <div class="background-container">
+  <div class="background-container">
       <img src="naacp.jpg" alt="NAACP" />
     </div>
   {/snippet}
@@ -13,25 +13,19 @@
   {#snippet scrolly()}
     <ArticleText>
       <div class="text-box">
-        <h2>Who are Black Business Owners?</h2>
         <p>
-          <strong>More Likely to be Men than Women.</strong> Some 54% of Black-owned
-          firms in 2022 had men as their majority owners, while 39% had women as
-          their majority owners.
+          Supporting Black-owned businesses is essential to closing the racial
+          wealth gap.
         </p>
         <p>
-          <strong>A Greater Percentage are Middle-Aged.</strong> Half of Black or
-          African American business owners who reported their age group were ages
-          35 to 54 in 2022.
+          Black people make up 12.4% of the American population, but possess
+          only 2.4% of the nation’s wealth.
         </p>
         <p>
-          <strong>A Majority have a College Degree.</strong> Among owners who reported
-          their highest level of education completed, 27% had a bachelor’s degree
-          and 34% had a graduate or professional degree beyond a bachelor’s in 2022.
+          While the amount of Black-owned businesses increased from 2.2% in 2017
+          to 3.3% in 2022, this representation is far below Black Americans’
+          14.4% share.
         </p>
-      </div>
-      <div class="chart-footnote">
-        Source: <a href="https://www.pewresearch.org/short-reads/2025/02/12/a-look-at-black-owned-businesses-in-the-us/">Pew Research Center</a>
       </div>
     </ArticleText>
   {/snippet}

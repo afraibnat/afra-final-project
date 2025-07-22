@@ -2,7 +2,6 @@
     import Scroller from "../lib/Scroller.svelte";
     import ArticleText from "../lib/ArticleText.svelte";
     import ObserverArticleSecond from "../lib/ObserverArticleSecond.svelte";
-    import StickyBackground from "../lib/StickyBackground.svelte";
 
     const options = {
         threshold: [0.85, 0.95],
