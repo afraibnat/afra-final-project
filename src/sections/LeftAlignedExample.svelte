@@ -205,14 +205,9 @@
             <div class="chart">
                 <Chart bind:chart {options} highcharts={Highcharts} />
                 <div class="chart-footnote">
-                    X-axis: Years of recorded business data (1972–2020)
-                    <br />
-                    Source: <a href="https://example.com">U.S. Census Bureau</a>
+                    Source: <a href="https://www.epi.org/unequalpower/publications/understanding-black-white-disparities-in-labor-market-outcomes/">Economic Policy Institute</a>
                 </div>
             </div>
-            <!-- <button on:click={toggleThirdSeries} class="toggle-button">
-                {thirdSeriesVisible ? "Remove Group 3" : "Add Group 3"}
-            </button> -->
             <div>
                
             </div>
@@ -222,19 +217,19 @@
             <ArticleText>
                 <p>For decades, there has been an uneven landscape of American business ownership for Black entrepreneurs. 
                     It was only until 1954 when the Bureau of Labor Statistics reported employment rates by race, 
-                    of white or nonwhite.</p>
+                    of white or nonwhite.</p><br>
 
                 <p>There is a long-standing disparity of unemployment that exists between black and white workers; 
-                Since 1972, the unemployment ratio of black to white workers is 2:1, including in 2019.</p>
+                As shown in the graph, since 1972, the unemployment ratio of black to white workers is 2:1, including in 2019.</p><br>
             
-                <p>This means black workers are twice as likely to be unemployed than white workers.</p>
+                <p>This means black workers are twice as likely to be unemployed than white workers.</p><br><br>
             </ArticleText>
 
             <ArticleText>
                 <p>It’s important to point out the undercapitalization of Black businesses 
                     in regards to the U.S metro area’s Black populations. If the number of Black 
                     businesses matched population size and employees per firm matched the average business, 
-                    it would create 206,441 jobs.</p>
+                    it would create <a href="https://www.brookings.edu/articles/black-owned-businesses-in-u-s-cities-the-challenges-solutions-and-opportunities-for-prosperity/" target="_blank" rel="noopener noreferrer">206,441 jobs.</a></p>
             </ArticleText>
         {/snippet}
     </Scroller>
@@ -253,22 +248,4 @@
         margin-top: 8px;
         line-height: 1.4;
     }
-
-    /* .toggle-button {
-        margin: 20px;
-        padding: 20px;
-        color: #007052;
-        background-color: #0bd956;
-        border: solid 2px #007052;
-        border-radius: 16px;
-        font-size: large;
-        cursor: pointer;
-        transition: all 0.2s ease;
-        box-shadow: 0 4px 0 #007052;
-    }
-
-    .toggle-button:active {
-        transform: translateY(2px);
-        box-shadow: 0 2px 0 #007052;
-    } */
 </style>

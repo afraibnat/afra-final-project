@@ -11,11 +11,15 @@
 
     {#snippet scrolly()}
         <ArticleText>
-            <h2>Why were they so affected?</h2>
+            <h2>Why were Black-owned Businesses Tremondously Affected?</h2>
             <p>
                 Black businesses were geographically located in COVID-19
-                hotspots, racial disparities in receiving federal relief funds,
-                and general funding gaps occurring pre-pandemic.
+                hotspots, racial <a
+                    href="https://www.aljazeera.com/economy/2020/8/7/us-why-were-black-owned-businesses-the-hardest-hit-by-pandemic"
+                    target="_blank"
+                    rel="noopener noreferrer">disparities</a
+                > in receiving federal relief funds, and general funding gaps occurring
+                pre-pandemic.
             </p>
         </ArticleText>
     {/snippet}

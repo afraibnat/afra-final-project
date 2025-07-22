@@ -18,8 +18,6 @@
     .wrapper {
         background-color: #ffffff;
         padding: min(100vh, 30rem) 1rem;
-        border-style: solid;
-        border-color: #4096fa;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -82,7 +80,7 @@
     }
 
     .scrolly {
-        z-index: 1;
+        z-index: 2;
     }
 
     @media (max-width: 768px) {

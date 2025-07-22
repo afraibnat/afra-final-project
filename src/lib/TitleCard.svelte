@@ -6,7 +6,7 @@
 <div class="title-card">
   <div class="title-text">
     <h1>{title}</h1>
-    <p class="credit">{credit}</p>
+      <p class="credit-text">{@html credit}</p>
   </div>
 </div>
 

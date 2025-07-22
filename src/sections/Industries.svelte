@@ -26,28 +26,28 @@
 <Scroller layout="center">
     {#snippet sticky()}
         <h2>Industries Most Hit</h2>
-        <p>These are industries with some of the highest concentrations of African-American-owned businesses.</p>
+        <p>These are industries with some of the <a href="https://www.africanamericanchambersa.org/the-impact-of-covid-19-on-african-american-owned-businesses/" target="_blank" rel="noopener noreferrer">highest concentrations of African-American-owned businesses.</a></p>
     {/snippet}
 
     {#snippet scrolly()}
         <ObserverArticleSecond callback={simpleCallback} {options}>
-            <p>Accommodations, specifically Hotel and Leisure: Down by 35%</p>
+            <p><strong>Accommodations,</strong> specifically <strong>Hotel</strong> and <strong>Leisure:</strong> Down by <strong>35%</strong></p>
         </ObserverArticleSecond>
 
         <ObserverArticleSecond callback={simpleCallback} {options}>
-            <p>Food service (Restaurants): Down by 22%</p>
+            <p><strong>Food service (Restaurants):</strong> Down by <strong>22%</strong></p>
         </ObserverArticleSecond>
 
         <ObserverArticleSecond callback={simpleCallback} {options}>
-            <p>Construction: Down by 27%</p>
+            <p><strong>Construction:</strong> Down by <strong>27%</strong></p>
         </ObserverArticleSecond>
 
         <ObserverArticleSecond callback={simpleCallback} {options}>
-            <p>Professional and Business Services: Down by 18%</p>
+            <p><strong>Professional</strong> and <strong>Business Services:</strong> Down by <strong>18%</strong></p>
         </ObserverArticleSecond>
 
         <ObserverArticleSecond callback={simpleCallback} {options}>
-            <p>Health Services: Down by 16%</p>
+            <p><strong>Health Services:</strong> Down by <strong>16%</strong></p>
         </ObserverArticleSecond>
     {/snippet}
 </Scroller>

@@ -46,26 +46,25 @@
     {#snippet scrolly()}
       <ObservedArticleText callback={setImageIndex(0)} {options}>
         <p>
-          <strong>
-            With the economic fallout during the COVID-19 pandemic in 2020, the
-            most deeply impacted racial group were Black-owned businesses,
+            With the economic fallout during the COVID-19 pandemic in 2020, 
+            <a href="https://en.wikipedia.org/wiki/National_Negro_Business_League" target="_blank" rel="noopener noreferrer">
+    the most deeply impacted racial group were Black-owned businesses,</a>
             seeing a 41% decline in number, along with the collapse of 440,000.
             Furthermore, Black Americans faced an unemployment rate of 16.8%.
-          </strong>
         </p>
       </ObservedArticleText>
 
       <ObservedArticleText callback={setImageIndex(1)} {options}>
         <p>
           But this collapse was a result of long-term civil and economic
-          justices. Black people were not allowed in white restaurants,
+          justices. Black Americans were not allowed in white restaurants,
           universities, churches, or businesses due to Jim Crow laws and
           segregation, barriers meant to keep Black people from having the same
           opportunities from white people, leading to many starting their own to
           rely on self-sufficiency.
         </p>
         <p>
-          As a result, there came the “Golden Age” of Black-owned businesses
+          As a result, there came the <a href="https://blackcreative.co/the-origins-of-black-owned-businesses-and-why-they-matter-today/" target="_blank" rel="noopener noreferrer">“Golden Age”</a> of Black-owned businesses
           from 1900 to 1930. The number of Black-owned companies doubled from
           20,000 to 40,000 between 1900 and 1915, according to the National
           Negro Business League.
@@ -76,7 +75,7 @@
         <p>
           Independent black-owned businesses played a significant role in
           financing civil rights protests during the 1950s and 60s. Grocery
-          store owner Daniel Speed bankrolled a bus boycott similar to the
+          store owner <a href="https://blackcreative.co/the-origins-of-black-owned-businesses-and-why-they-matter-today/" target="_blank" rel="noopener noreferrer">Daniel Speed</a> bankrolled a bus boycott similar to the
           Montgomery boycott, and his shop served as a meeting ground for black
           leaders.
         </p>
@@ -95,7 +94,7 @@
     margin: 0 auto;
     display: block;
     max-width: 400px;
-    height: auto;
+    height: 100%;
   }
 
   .caption {

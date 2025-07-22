@@ -12,14 +12,12 @@
     <ArticleText>
       <h2>During the months of March and April 2020...</h2>
       <p>
-        Average business earnings dropped by 11 percent for Black business
-        owners, 15 percent for Asian businesses, 7 percent for Latinx, and 2
-        percent for white
+        Average business earnings dropped by 11% for Black business
+        owners, 15% for Asian businesses, 7% for Latinx, and 2% for white.
       </p>
       <p>
-        Losses for minority business owners were disproportionately felt. Losses
-        of business earnings were 17 percent for all business owners, but 28
-        percent for Black businesses.
+        Losses for minority business owners were <a href="https://advocacy.sba.gov/wp-content/uploads/2022/08/Report_COVID-and-Racial-Disparities_508c.pdf" target="_blank" rel="noopener noreferrer">disproportionately felt.</a> Losses
+        of business earnings were 17% for all business owners, but 28% for Black businesses.
       </p>
     </ArticleText>
   {/snippet}

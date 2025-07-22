@@ -7,9 +7,8 @@
 
     const images = ["parity.png", "loan-apps.png"];
     const captions = [
-        `A masked tailor working during the COVID-19 pandemic. <a href="https://www.wsj.com/articles/black-owned-businesses-hit-especially-hard-by-coronavirus-pandemic-study-finds-11596558754"> Source</a>`,
-        `The rise of Black-owned businesses during the Golden Age, 1900–1930. <a href="https://www.wsj.com/articles/black-owned-businesses-hit-especially-hard-by-coronavirus-pandemic-study-finds-11596558754"> Source</a>`,
-        `Daniel Speed, a grocer who helped fund civil rights efforts in the 1950s and 60s. <a href="https://www.historypin.org/en/explore/geo/37.77493,-122.419416,12/bounds/37.702303,-122.493402,37.847486,-122.34543/paging/1/pin/1139634"> Source</a>`,
+        `Source: <a href="https://www.brookings.edu/articles/who-is-driving-black-business-growth-insights-from-the-latest-data-on-black-owned-businesses/#:~:text=Between%202017%20and%202020%2C%20the,an%2011%25%20increase%20since%202017.">Brookings</a>`,
+        `Source: <a href="https://blackwealthdata.org/explore/business#BOW-02"> Black Wealth Data Center</a>`,
     ];
 
     const options = {
@@ -79,8 +78,8 @@
     .duck-img {
         margin: 0 auto;
         display: block;
-        max-width: 400px;
-        height: auto;
+        width: 100%;
+        height: 100%;
     }
 
     .caption {
