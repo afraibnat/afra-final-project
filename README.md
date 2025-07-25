@@ -8,7 +8,6 @@ Inspiration:
 - [Kode With Klossy Scrollytelling Template](https://github.com/jasminesamra/kwk-scrollytelling-template)
 - [Wata Na Life](https://www.wateraid.org/uk/stories/water-is-life-in-sierra-leone)
 - [The Economic Impact of Closing the Racial Wealth Gap](https://www.mckinsey.com/industries/public-sector/our-insights/the-economic-impact-of-closing-the-racial-wealth-gap)
-I admired the simplicity of text, font, image, color, and transition choices, which was my goal to achieve in this project.
 
 ## Recommended IDE Setup
 
