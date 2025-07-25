@@ -1,4 +1,5 @@
 Created for Kode With Klossy's Data Storytelling Challenge to work with data from partner organization, Black Wealth Data Center, to craft a compelling, data-driven visual narrative
+
 Chosen as **one of three finalists** for the **Built for Everyone: Most Accessible Piece** award. *Recognizes a project that puts accessibility first through clear language, inclusive design, and thoughtful data presentation.*
 
 *All images, data sources, and testimonies are cited.*
