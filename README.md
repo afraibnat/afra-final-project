@@ -4,7 +4,7 @@ Chosen as one of three finalists for the "Built for Everyone: Most Accessible Pi
 *All images, data sources, and testimonies are cited.*
 
 Inspiration:
-- “Kode With Klossy Scrollytelling Template” repository code to create this project. https://github.com/jasminesamra/kwk-scrollytelling-template 
+- “Kode With Klossy Scrollytelling Template” repository code. https://github.com/jasminesamra/kwk-scrollytelling-template 
 - “Wata Na Life” and “The Economic Impact of Closing the Racial Wealth Gap” websites, both scrollytelling websites. I admired the simplicity of text, font, image, color, and transition choices, which was my goal to achieve in this project.
 
 Wata Na Life: https://www.wateraid.org/uk/stories/water-is-life-in-sierra-leone  
