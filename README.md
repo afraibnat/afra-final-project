@@ -1,14 +1,13 @@
 Created for Kode With Klossy's Data Storytelling Challenge to work with data from partner organization, Black Wealth Data Center, to craft a compelling, data-driven visual narrative
-Chosen as one of three finalists for the "Built for Everyone: Most Accessible Piece" award. *Recognizes a project that puts accessibility first through clear language, inclusive design, and thoughtful data presentation.*
+Chosen as **one of three finalists** for the **Built for Everyone: Most Accessible Piece** award. *Recognizes a project that puts accessibility first through clear language, inclusive design, and thoughtful data presentation.*
 
 *All images, data sources, and testimonies are cited.*
 
 Inspiration:
-- “Kode With Klossy Scrollytelling Template” repository code. https://github.com/jasminesamra/kwk-scrollytelling-template 
-- “Wata Na Life” and “The Economic Impact of Closing the Racial Wealth Gap” websites, both scrollytelling websites. I admired the simplicity of text, font, image, color, and transition choices, which was my goal to achieve in this project.
-
-Wata Na Life: https://www.wateraid.org/uk/stories/water-is-life-in-sierra-leone  
-The Economic Impact of Closing the Racial Wealth Gap: https://www.mckinsey.com/industries/public-sector/our-insights/the-economic-impact-of-closing-the-racial-wealth-gap
+- [Kode With Klossy Scrollytelling Template](https://github.com/jasminesamra/kwk-scrollytelling-template)
+- [Wata Na Life](https://www.wateraid.org/uk/stories/water-is-life-in-sierra-leone)
+- [The Economic Impact of Closing the Racial Wealth Gap](https://www.mckinsey.com/industries/public-sector/our-insights/the-economic-impact-of-closing-the-racial-wealth-gap)
+I admired the simplicity of text, font, image, color, and transition choices, which was my goal to achieve in this project.
 
 ## Recommended IDE Setup
 
