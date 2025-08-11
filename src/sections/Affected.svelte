@@ -45,14 +45,12 @@
         <ObservedArticleText callback={setImageIndex(0)} {options}>
             <h2>Why were Black-owned Businesses Tremondously Affected?</h2>
             <p>
-                Black businesses were geographically located in COVID-19
-                hotspots, racial <a
+                Many were located in COVID-19
+                hotspots, faced longstanding racial <a
                     href="https://www.aljazeera.com/economy/2020/8/7/us-why-were-black-owned-businesses-the-hardest-hit-by-pandemic"
                     target="_blank"
                     rel="noopener noreferrer">disparities</a
-                > in receiving federal relief funds, and general funding gaps occurring
-                pre-pandemic.
-            </p>
+                > in receiving federal relief funds, and struggled with funding gaps that existed even before the pandemic began.            </p>
         </ObservedArticleText>
     {/snippet}
 </Scroller>

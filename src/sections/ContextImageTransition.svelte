@@ -38,7 +38,7 @@
           />
         {/key}
         <div class="caption" transition:fade>
-            {@html captions[imageIndex]}
+          {@html captions[imageIndex]}
         </div>
       </div>
     {/snippet}
@@ -46,38 +46,55 @@
     {#snippet scrolly()}
       <ObservedArticleText callback={setImageIndex(0)} {options}>
         <p>
-            With the economic fallout during the COVID-19 pandemic in 2020, 
-            <a href="https://en.wikipedia.org/wiki/National_Negro_Business_League" target="_blank" rel="noopener noreferrer">
-    the most deeply impacted racial group were Black-owned businesses,</a>
-            seeing a 41% decline in number, along with the collapse of 440,000.
-            Furthermore, Black Americans faced an unemployment rate of 16.8%.
+          <strong
+            >With the economic fallout during the COVID-19 pandemic in 2020,</strong
+          >
+          Black Americans, the most deeply impacted racial group, saw a 41%
+          decline in business ownership, along with 440,000
+          <a
+            href="https://www.bloomberg.com/news/articles/2020-06-08/black-business-owners-suffer-41-drop-in-covid-19-lockdowns"
+            target="_blank"
+            rel="noopener noreferrer">businesses collapsing.</a
+          >
+          Furthermore, they faced an unemployment rate of 16.8%.
         </p>
       </ObservedArticleText>
 
       <ObservedArticleText callback={setImageIndex(1)} {options}>
         <p>
-          But this collapse was a result of long-term civil and economic
-          justices. Black Americans were not allowed in white restaurants,
-          universities, churches, or businesses due to Jim Crow laws and
-          segregation, barriers meant to keep Black people from having the same
-          opportunities from white people, leading to many starting their own to
-          rely on self-sufficiency.
+          <strong
+            >However, this economic collapse was not an isolated event. it
+            reflected centuries of long-term systemic civil and economic
+            injustices.</strong
+          >
         </p>
         <p>
-          As a result, there came the <a href="https://blackcreative.co/the-origins-of-black-owned-businesses-and-why-they-matter-today/" target="_blank" rel="noopener noreferrer">“Golden Age”</a> of Black-owned businesses
-          from 1900 to 1930. The number of Black-owned companies doubled from
-          20,000 to 40,000 between 1900 and 1915, according to the National
-          Negro Business League.
+          For decades, Jim Crow laws barred Black Americans from white-owned
+          restaurants, universities, churches, and businesses, forces designed
+          to limit opportunities, leading many to rely on self-sufficiency.
+        </p>
+        <p>
+          As a result, there came the <a
+            href="https://blackcreative.co/the-origins-of-black-owned-businesses-and-why-they-matter-today/"
+            target="_blank"
+            rel="noopener noreferrer">“Golden Age”</a
+          > of Black-owned businesses from 1900 to 1930. During this time, the number
+          of Black-owned companies doubled from 20,000 to 40,000 between 1900 and
+          1915.
         </p>
       </ObservedArticleText>
 
       <ObservedArticleText callback={setImageIndex(2)} {options}>
         <p>
-          Independent black-owned businesses played a significant role in
-          financing civil rights protests during the 1950s and 60s. Grocery
-          store owner <a href="https://blackcreative.co/the-origins-of-black-owned-businesses-and-why-they-matter-today/" target="_blank" rel="noopener noreferrer">Daniel Speed</a> bankrolled a bus boycott similar to the
-          Montgomery boycott, and his shop served as a meeting ground for black
-          leaders.
+          <strong>These independent black-owned businesses played a significant role in
+          financing civil rights protests during the 1950s and 60s. </strong></p>
+        <p>Grocery
+          store owner <a
+            href="https://blackcreative.co/the-origins-of-black-owned-businesses-and-why-they-matter-today/"
+            target="_blank"
+            rel="noopener noreferrer">Daniel Speed</a
+          > bankrolled a bus boycott similar to the Montgomery boycott, and his shop
+          served as a meeting ground for black leaders.
         </p>
       </ObservedArticleText>
     {/snippet}

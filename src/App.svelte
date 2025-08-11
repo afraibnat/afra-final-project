@@ -17,10 +17,12 @@
   import LastThoughts from "./sections/LastThoughts.svelte";
   import Conclusions from "./sections/Conclusions.svelte";
   import RacialWealthGap from "./sections/RacialWealthGap.svelte";
+  import ResearchQuestion from "./sections/ResearchQuestion.svelte";
 </script>
 
 <main>
   <TitleSection />
+  <ResearchQuestion />
   <ContextImageTransition />
   <BusinessOwners />
   <RacialWealthGap />

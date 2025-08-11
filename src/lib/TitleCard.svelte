@@ -31,7 +31,7 @@
     max-width: 800px;
     text-align: left;
     color: #ffffff;
-    font-family: "Inter", sans-serif;
+    font-family: "Noto Sans", Helvetica, Arial, serif;
   }
 
   h1 {

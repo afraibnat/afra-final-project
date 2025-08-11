@@ -29,7 +29,7 @@
                 href="https://www.africanamericanchambersa.org/the-impact-of-covid-19-on-african-american-owned-businesses/"
                 target="_blank"
                 rel="noopener noreferrer"
-                >highest concentrations of African-American-owned businesses.</a
+                >highest concentrations of Black-owned businesses.</a
             >
         </p>
     {/snippet}

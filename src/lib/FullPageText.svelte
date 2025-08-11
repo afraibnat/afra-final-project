@@ -17,7 +17,7 @@
     align-items: center;
     text-align: center;
     padding: 2rem;
-    font-family: 'Inter', sans-serif;
+    font-family: "Noto Sans", Helvetica, Arial, serif;
     color: white;
   }
 
@@ -28,7 +28,7 @@
 
   h2 {
     font-size: 1.6rem;
-    font-weight: 500; /* light */
+    font-weight: 500;
     line-height: 1.6;
     margin: 0;
     white-space: pre-wrap; /* preserve line breaks if needed */

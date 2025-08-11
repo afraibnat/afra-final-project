@@ -199,7 +199,7 @@
             <div class="chart">
                 <Chart bind:chart {options} highcharts={Highcharts} />
                 <div class="chart-footnote">
-                    Source: <a href="https://www.epi.org/unequalpower/publications/understanding-black-white-disparities-in-labor-market-outcomes/">Economic Policy Institute</a>
+                    <a href="https://www.epi.org/unequalpower/publications/understanding-black-white-disparities-in-labor-market-outcomes/">Economic Policy Institute</a>
                 </div>
             </div>
             <div>
@@ -209,21 +209,27 @@
 
         {#snippet scrolly()}
             <ArticleText>
-                <p>For decades, there has been an uneven landscape of American business ownership for Black entrepreneurs. 
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <p>For decades, there has been an uneven landscape of American business ownership for Black entrepreneurs.
                     It was only until 1954 when the Bureau of Labor Statistics reported employment rates by race, 
-                    of white or nonwhite.</p><br>
+                    categorized simply of white or nonwhite.</p>
 
-                <p>There is a long-standing disparity of unemployment that exists between black and white workers; 
-                As shown in the graph, since 1972, the unemployment ratio of black to white workers is 2:1, including in 2019.</p><br>
+                <p>There is a long-standing disparity of unemployment that exists between black and white workers. Since 1972, the unemployment ratio of black to white workers is 2:1, including in 2019.
+                Black workers have consistently experienced unemployment rates twice as high as their white counterparts, meaning they are twice as likely to be unemployed.
+                </p>
             
-                <p>This means black workers are twice as likely to be unemployed than white workers.</p><br><br>
             </ArticleText>
 
             <ArticleText>
-                <p>It’s important to point out the undercapitalization of Black businesses 
-                    in regards to the U.S metro area’s Black populations. If the number of Black 
+                <p>This ongoing inequality extends beyond employment into business capital and growth. It’s important to point out the <a href="https://www.brookings.edu/articles/black-owned-businesses-in-u-s-cities-the-challenges-solutions-and-opportunities-for-prosperity/" target="_blank" rel="noopener noreferrer">undercapitalization of Black businesses</a> 
+                    in regards to the U.S metro area’s Black populations. The number of Black-owned businesses remain significantly disproportionate to population size. </p>
+                <p>If the number of Black 
                     businesses matched population size and employees per firm matched the average business, 
-                    it would create <a href="https://www.brookings.edu/articles/black-owned-businesses-in-u-s-cities-the-challenges-solutions-and-opportunities-for-prosperity/" target="_blank" rel="noopener noreferrer">206,441 jobs.</a></p>
+                    it would create 206,441 jobs, highlighting potential economic prosperity.</p>
             </ArticleText>
         {/snippet}
     </Scroller>

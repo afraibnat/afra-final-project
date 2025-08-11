@@ -12,7 +12,7 @@
     margin: 0 auto;
     padding: 40px 24px;
     font-size: 21px;
-    font-family: 'Helvetica Neue', 'Segoe UI', sans-serif;
+    font-family: "Noto Sans", Helvetica, Arial, sans-serif;
     border-radius: 4px;
   }
 </style>
